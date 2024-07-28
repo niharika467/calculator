@@ -10,7 +10,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
 }
 
@@ -23,18 +23,18 @@ input {
     margin: 20px;
     background-color: #F5CE9F;
     border: none;
-  }
+}
 
 
- #cal-button {
+#cal-button {
     background-color: #FFFFDD;
     border-radius: 10px;
     width: 420px;
     height: 520px;
-    }
+}
 
 
-button{
+button {
     width: 80px;
     height: 80px;
     font-size: 36px;
@@ -43,12 +43,41 @@ button{
     background-color: #F5CE9F;
     margin-left: 18px;
     margin-top: 20px;
-}    
+}
 
 
 
-#button1, #button2{
+#button1,
+#button2 {
     width: 182px;
     height: 80px;
-    
+
+}
+
+@media (width < 440px) {
+    .calculator {
+        width: 315px;
+        height: 537px;
+    }
+    input{
+        width: 285px;
+        height: 117px;
+        margin: 15px;
+        font-size: 36px;
+    }
+    #cal-button{
+        width: 315px;
+        height: 390px;
+    }
+    button{
+        width: 60px;
+        height: 60px;
+        font-size: 27px;
+        margin-left: 12.5px;
+        margin-top: 15px;
+    }
+    #button1, #button2{
+        width: 136px;
+        height: 60px;
+    }
 }
